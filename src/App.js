@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/'>
-            <Route index element={<Login />} />
+            Z<Route index element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>
