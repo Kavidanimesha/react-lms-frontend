@@ -4,15 +4,11 @@ import Login from '../src/pages/login/Login'
 
 function App() {
   return (
-   <div>
       <BrowserRouter>
-        <Routes>
-          <Route path='/'>
-            Z<Route index element={<Login />} />
-          </Route>
-        </Routes>
+          <Routes>
+              <Route path='/' element={<Login />} />
+          </Routes>
       </BrowserRouter>
-   </div>
   );
 }
 
